@@ -1,2 +1,1 @@
-# eileenchoe.github.io
-Personal website for Eileen Choe
+# [Personal website for Eileen Choe](eileenchoe.github.io)
