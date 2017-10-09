@@ -35,17 +35,19 @@ p {
 }
 
 h1{
+  color: #337ab7;
   font-family: 'Inconsolata', monospace;
   padding-bottom: 0px;
 }
 
 h4 {
+  color: #337ab7;
   font-weight: bold;
   font-family: 'Inconsolata', monospace;
 }
 
 .section-header{
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .boundary {
