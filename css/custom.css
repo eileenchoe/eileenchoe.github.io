@@ -10,11 +10,11 @@ body {
 }
 
 #leftbar {
-  border-right: #c0c0c0 solid 1px;
-  padding-right: 50px;
+  padding-right: 20px;
 }
 
 #rightbar {
+  border-left: #c0c0c0 solid 1px;
   padding-left: 20px;
 }
 
@@ -34,8 +34,18 @@ p {
   fill: #222;
 }
 
+h1{
+  font-family: 'Inconsolata', monospace;
+  padding-bottom: 0px;
+}
+
 h4 {
-  margin-top: 20px;
+  font-weight: bold;
+  font-family: 'Inconsolata', monospace;
+}
+
+.section-header{
+  margin-top: 25px;
 }
 
 .boundary {
