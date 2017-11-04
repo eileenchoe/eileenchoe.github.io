@@ -22,15 +22,13 @@
 		<title>Eileen Choe</title>
 	</head>
 	<body>
-		<!-- <nav class="navbar" role="navigation">
-		  <div class="navbar-collapse collapse">
-		    <ul class="nav navbar-nav navbar-right">
-		      <li><a href="projects.html">Projects</a></li>
-		      <li><a href="../resources/resume.pdf">Resume</a></li>
-			  <li><a href="#blog.html">Blog</a></li>
-		    </ul>
-		  </div>
-		</nav> -->
+		<div style="display: none" id="hideAll">&nbsp;</div>
+		<script type="text/javascript">
+			document.getElementById("hideAll").style.display = "block";
+			window.onload = function() {
+				document.getElementById("hideAll").style.display = "none";
+			}
+		</script>
 		<div class="container-fluid">
 			<h1>Eileen J. Choe</h1>
 			<a href="mailto:echoe@lion.lmu.edu.com">echoe@lion.lmu.edu</a><br><br>
@@ -42,16 +40,11 @@
 							<li class="linkedin"><a href="https://www.linkedin.com/in/eileenchoe/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
 							<li class="twitter"><a href="https://twitter.com/eileen_choe"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
 					</ul>
-
 					<h4>ABOUT ME</h4>
 					<p>I am an undergraduate student at <a href="http://lmu.edu">Loyola Marymount University (LMU)</a> in Los Angeles, CA pursuing a B.S. in <b>Computer Science</b> with a minor in <b>Applied Mathematics</b>.</p>
-					<!-- Github: <a href="https://github.com/eileenchoe">eileenchoe</a><br>
-					LinkedIn: <a href="https://linkedin.com/in/eileenchoe">eileenchoe</a> -->
-
-					<a href="resources/curriculum-vitae.pdf"><b>Curriculum Vitae</b></a>
+					<a href="resources/curriculum-vitae.pdf" target="_blank"><b>Curriculum Vitae</b></a>
 
 				</div>
-
 				<div class="col-sm-9" id="rightbar">
 					<h4 style="margin-top: 0px">RESEARCH INTERESTS</h4>
 					<p>Data and Information Management, Visualization, Data Analytics, Programming Languages</p>
@@ -98,8 +91,8 @@
 					<p>Southern California Conferences for Undergraduate Research (Pomona, CA)
 						<br>Oral Presentation: “GRNsight v2: a web application for visualizing models of small gene regulatory networks”
 					</p>
-					<em>October 2017 (upcoming!)</em>
-					<p>Society of Women Engineers Undergraduate Research Competition (Austin, TX)
+					<em>October 2017</em>
+					<p>Society of Women Engineers Undergraduate Research Competition (Austin, TX) - <em>Finalist</em>
 						<br>Oral Presentation: “GRNsight v2: a web application for visualizing models of small gene regulatory networks”
 					</p>
 					<em>March 2017</em>
@@ -114,11 +107,17 @@
 					<p>Summer 2016 - Engineering Intern at 							<a href="https://www.jpl.nasa.gov/">NASA Jet Propulsion Laboratory</a></p>
 					<p>Summer 2015 - Electrical Engineering Intern at		<a href="http://www.raytheon.com/">Raytheon Space and Airborne Systems</a></p>
 
+					<h4 class="section-header">WRITING SAMPLES</h4>
+					<p>Selected writing samples from classes taken at LMU through the University Honors Program Core Curriculum.<br><br>
+						<a href="resources/papers/HistoryFinalPaper.pdf" target="_blank">History of Civil Rights Activism in America</a><br>
+						<a href="resources/papers/Advocacy.pdf" target="_blank">Cultural Production and Subculture as Activism</a><br>
+						<a href="resources/papers/ChristianityAndArt.pdf" target="_blank">Spolia of Rome, Spolia of Christianity</a><br>
+						<a href="resources/papers/TheologyFinalPaper.pdf" target="_blank">In Search of a Way: Redefining the Silent Land</a>
+					</p>
+
 					<h4 class="section-header">TRAVEL & PHOTOGRAPHY</h4>
 					<p>When I'm not coding, I'm probably travelling (or planning my next trip). I love meeting new people and learning new things.</p>
-
 					<p>Check out my <a href="https://www.flickr.com/photos/ejchoe">flickr</a> for travel pictures!</p>
-
 					<p><span class="date">December 2017</span> - I will be visiting <b>Barcelona, Madrid, Toledo, Córdoba, & Seville</b>, eating a lot of tapas, and trying to improve my Spanish!</p>
 					<p><span class="date">May 2016</span> - I went to <b>Spain</b> (Madrid, Seville, Ronda, Granada, & Nerja) and <b>Italy</b> (Rome).</p>
 					<p><span class="date">Fall 2015</span> - I studied abroad in <b>Bonn, Germany</b> with the LMU Engineering Study Abroad Program at the <a href="https://www.aib-studyabroad.org/">Akademie für Internationale Bildung</a>. I lived with a German host family (and their dog!). In Germany, I visited <b>Munich, Berlin, Dresden, Aachen, Düsseldorf, & Cologne</b>. On the weekends, I travelled with my friends to the cities of: <b>Prague, Paris, Bruges, London, Dublin, Rome, & Milan</b>.</p>
@@ -128,7 +127,7 @@
 					<p><span class="date">December 2014</span> - I went to <b>Tijuana, México</b> on a <a href="http://mission.lmu.edu/ministry/servicejustice/decolores/">LMU De Colores</a> service immersion trip.
 					<p><span class="date">June 2014</span> - I went to <b>Hong Kong, Beijing, China, & Seoul, Korea</b>.
 					<!-- <svg width="960" height="547"></svg>
-				</div>
+				<!-- </div> -->
 			</div>
 		</div>
 		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
